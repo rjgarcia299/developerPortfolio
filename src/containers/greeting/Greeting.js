@@ -5,7 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
-
+import Typewriter from "typewriter-effect";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -16,7 +16,13 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("Hi, my name is Rafael and I like to code.")
+                      .start();
+                  }}
+                />
               </h1>
               <h1 className="greeting-nickname" style={{ color: theme.text }}>
                 {greeting.nickname}
@@ -45,7 +51,7 @@ export default function Greeting(props) {
               className="image"
               theme={theme}
               alt="profile picture"
-              src={require("../../assets/images/wave_Small3.gif")}
+              src={require("../../assets/images/profilePicture.JPG")}
             />
           </div>
         </div>

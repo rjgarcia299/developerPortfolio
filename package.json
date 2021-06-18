@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "developersPortfolio",
-  "homepage": ".",
   "version": "0.1.0",
+  "homepage": ".",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -36,7 +36,8 @@
     "react-spring": "^8.0.27",
     "styled-components": "^5.1.1",
     "styletron-engine-atomic": "^1.4.6",
-    "styletron-react": "^5.2.7"
+    "styletron-react": "^5.2.7",
+    "typewriter-effect": "^2.17.0"
   },
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.9",

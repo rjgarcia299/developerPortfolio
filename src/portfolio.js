@@ -3,119 +3,95 @@
 // # is for links
 
 const settings = {
-  isSplash: true // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //Home Page
 const greeting = {
-  title: "John Doe",
-  logo_name: "John Doe",
-  nickname: "Hi!",
-  subTitle:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu euismod ipsum. Nullam ac neque in felis pulvinar convallis in id dolor. Praesent mi arcu, pulvinar sit amet diam et, eleifend tristique turpis. Maecenas finibus a libero id suscipit.",
-  resumeLink:
-    "#",
-  portfolio_repository: "#"
+  title: "Hi, and welcome to my page",
+  logo_name: "Rafael",
+  subTitle: "Software Engineer | US Marine Veteran",
+  resumeLink: "#",
+  portfolio_repository: "#",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  //github: "#",
-  //linkedin: "#",
-  //gmail: "#",
-  //gitlab: "#",
-  //facebook: "#",
-  //medium: "#",
-  //stackoverflow: "#",
+  // github: "https://github.com/rjgarcia299",
+  // linkedin: "https://www.linkedin.com/in/rafael-garcia-835aa1120/",
+  // gmail: "rafael.garcia.contact.me@gmail.com",
+  // medium: "https://medium.com/@rafael.garcia.contact.me",
+  // stackoverflow: "https://stackexchange.com/users/20845922/rafael-j-garcia"
   //twitter: "#"
-// Instagram and Twitter are also supported in the links!
-
+  // Instagram and Twitter are also supported in the links!
   {
     name: "Github",
-    link: "#",
+    link: "https://github.com/rjgarcia299",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717" // Reference https://simpleicons.org/?q=github
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/rafael-garcia-835aa1120/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5" // Reference https://simpleicons.org/?q=linkedin
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "#",
+    link: "rafael.garcia.contact.me@gmail.com",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000" // Reference https://simpleicons.org/?q=youtube
+    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "#",
+    link: "rafael.garcia.contact.me@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836" // Reference https://simpleicons.org/?q=gmail
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "#",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2" // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "#",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2" // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "#",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F" // Reference https://simpleicons.org/?q=instagram
-  }
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Full Stack Web Development",
       fileName: "DataScienceImg",
       skills: [
+        "⚡ bullet points about headlines in tech",
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Node.Js",
+          fontAwesomeClassname: "f419",
           style: {
-            backgroundColor: "transparent"
-          }
+            backgroundColor: "black",
+          },
         },
         {
           skillName: "Keras",
           fontAwesomeClassname: "simple-icons:keras",
           style: {
             backgroundColor: "white",
-            color: "#D00000"
-          }
+            color: "#D00000",
+          },
         },
         {
           skillName: "PyTorch",
           fontAwesomeClassname: "logos-pytorch",
           style: {
-            backgroundColor: "transparent"
-          }
+            backgroundColor: "transparent",
+          },
         },
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB"
-          }
-        }
-      ]
+            color: "#3776AB",
+          },
+        },
+      ],
     },
     {
       title: "Full Stack Development",
@@ -123,81 +99,81 @@ const skills = {
       skills: [
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       ],
       softwareSkills: [
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#E34F26"
-          }
+            color: "#E34F26",
+          },
         },
         {
           skillName: "CSS3",
           fontAwesomeClassname: "fa-css3",
           style: {
-            color: "#1572B6"
-          }
+            color: "#1572B6",
+          },
         },
         {
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
           style: {
-            color: "#CC6699"
-          }
+            color: "#CC6699",
+          },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
             backgroundColor: "#000000",
-            color: "#F7DF1E"
-          }
+            color: "#F7DF1E",
+          },
         },
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#61DAFB"
-          }
+            color: "#61DAFB",
+          },
         },
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
-            color: "#339933"
-          }
+            color: "#339933",
+          },
         },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
-            color: "#CB3837"
-          }
+            color: "#CB3837",
+          },
         },
         {
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
-            color: "#2C8EBB"
-          }
+            color: "#2C8EBB",
+          },
         },
         {
           skillName: "Gatsby",
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
-            color: "#663399"
-          }
+            color: "#663399",
+          },
         },
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
-            color: "#02569B"
-          }
-        }
-      ]
+            color: "#02569B",
+          },
+        },
+      ],
     },
     {
       title: "Cloud Infra-Architecture",
@@ -205,67 +181,67 @@ const skills = {
       skills: [
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       ],
       softwareSkills: [
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
-            color: "#4285F4"
-          }
+            color: "#4285F4",
+          },
         },
         {
           skillName: "AWS",
           fontAwesomeClassname: "logos-aws",
           style: {
             backgroundColor: "transparent",
-            color: "#FF9900"
-          }
+            color: "#FF9900",
+          },
         },
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
-            color: "#0089D6"
-          }
+            color: "#0089D6",
+          },
         },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#FFCA28"
-          }
+            color: "#FFCA28",
+          },
         },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#336791"
-          }
+            color: "#336791",
+          },
         },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
-            color: "#47A248"
-          }
+            color: "#47A248",
+          },
         },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#1488C6"
-          }
+            color: "#1488C6",
+          },
         },
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
-            color: "#326CE5"
-          }
-        }
-      ]
+            color: "#326CE5",
+          },
+        },
+      ],
     },
     {
       title: "UI/UX Design",
@@ -273,40 +249,40 @@ const skills = {
       skills: [
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       ],
       softwareSkills: [
         {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
           style: {
-            color: "#FF2BC2"
-          }
+            color: "#FF2BC2",
+          },
         },
         {
           skillName: "Figma",
           fontAwesomeClassname: "grommet-icons:figma",
           style: {
-            color: "#F24E1E"
-          }
+            color: "#F24E1E",
+          },
         },
         {
           skillName: "Adobe Illustrator",
           fontAwesomeClassname: "simple-icons:adobeillustrator",
           style: {
-            color: "#FF7C00"
-          }
+            color: "#FF7C00",
+          },
         },
         {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
           style: {
-            color: "#000000"
-          }
-        }
-      ]
-    }
-  ]
+            color: "#000000",
+          },
+        },
+      ],
+    },
+  ],
 };
 
 // Education Page
@@ -317,47 +293,47 @@ const competitiveSites = {
       logo_path: "MTA.png",
       alt_name: "Microsoft Technology Associate",
       style: {
-        color: "#2EC866"
+        color: "#2EC866",
       },
-      profileLink: "#"
+      profileLink: "#",
     },
     {
       siteName: "IBM",
       logo_path: "DataScience.png",
       alt_name: "Data Science",
       style: {
-        color: "#5B4638"
+        color: "#5B4638",
       },
-      profileLink: "#"
+      profileLink: "#",
     },
     {
       siteName: "IBM",
       logo_path: "MachineLearning.png",
       alt_name: "Machine Learning",
       style: {
-        color: "#1F8ACB"
+        color: "#1F8ACB",
       },
-      profileLink: "#"
+      profileLink: "#",
     },
     {
       siteName: "IBM",
       logo_path: "Python.png",
       alt_name: "Python 101",
       style: {
-        color: "#323754"
+        color: "#323754",
       },
-      profileLink: "#"
+      profileLink: "#",
     },
     {
       siteName: "GoogleCloud",
       logo_path: "gcpskill.png",
       alt_name: "Google Cloud",
       style: {
-        color: "#20BEFF"
+        color: "#20BEFF",
       },
-      profileLink: "#"
-    }
-  ]
+      profileLink: "#",
+    },
+  ],
 };
 
 const degrees = {
@@ -371,11 +347,11 @@ const degrees = {
       descriptions: [
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       ],
-      website_link: "#"
-    }
-  ]
+      website_link: "#",
+    },
+  ],
 };
 
 const certifications = {
@@ -384,120 +360,107 @@ const certifications = {
       title: "AWS Machine Learning",
       subtitle: "- Udacity",
       logo_path: "udacity.jpg",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Udacity",
-      color_code: "#03b3e4"
+      color_code: "#03b3e4",
     },
     {
       title: "Digital Skill: AI",
       subtitle: "- Accenture",
       logo_path: "Accenture-Logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Accenture DS:AI",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "Google Web Designer Basics",
       subtitle: "- Google",
       logo_path: "google_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Google",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "Introduction to Data Science",
       subtitle: "- cognitiveclass.ai",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "IBM",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "Python for Data Science",
       subtitle: "- cognitiveclass.ai",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "IBM",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "Machine Learning with Python",
       subtitle: "- cognitiveclass.ai",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "IBM",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "Introduction to programming using python",
       subtitle: "- Microsoft Imagine Academy Instructor",
       logo_path: "imagine.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Microsoft Imagine Academy",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "GCP Business Professional Accreditation",
       subtitle: "- GCP Training",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Google",
-      color_code: "rgb(255,255,255)"
+      color_code: "rgb(255,255,255)",
     },
     {
       title: "Full Stack Web Development",
       subtitle: "- Ungineering",
       logo_path: "ungineering.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "ungineering",
-      color_code: "#EDEFF0"
+      color_code: "#EDEFF0",
     },
     {
       title: "MTA- Introduction to Python",
       subtitle: "- Microsoft",
       logo_path: "microsoft.jpg",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Microsoft",
-      color_code: "#FFFFFF"
+      color_code: "#FFFFFF",
     },
     {
       title: "Data Science & AI with Python",
       subtitle: "- NiiT",
       logo_path: "niit.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Niit",
-      color_code: "#FFFFFF"
+      color_code: "#FFFFFF",
     },
     {
       title: "Network Ninja To Cloud Ninja",
       subtitle: "- AWS",
       logo_path: "aws.jpg",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "AWS",
-      color_code: "#232F3F"
+      color_code: "#232F3F",
     },
     {
       title: "Google Analytics Certification Course",
       subtitle: "- Google",
       logo_path: "analytics.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Google",
-      color_code: "#FFFFFF"
-    }
-  ]
+      color_code: "#FFFFFF",
+    },
+  ],
 };
 // Your Achievement Section Include Your Certification Talks and More
 // to edit achievements and badges in your portfolio edit AchievementCard.js to add badges or awards etc.
@@ -522,7 +485,7 @@ const experience = {
           location: "Kolkata, West Bengal",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#0879bf"
+          color: "#0879bf",
         },
         {
           title: "Student Member",
@@ -534,7 +497,7 @@ const experience = {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#9b1578"
+          color: "#9b1578",
         },
         {
           title: "Artificial Intelligence",
@@ -550,9 +513,9 @@ const experience = {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#fc1f20"
-        }
-      ]
+          color: "#fc1f20",
+        },
+      ],
     },
     {
       title: "Internships",
@@ -566,7 +529,7 @@ const experience = {
           location: "Kolkata, West Bengal",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#ee3c26"
+          color: "#ee3c26",
         },
         {
           title: "Virtual Internship in documentation",
@@ -587,9 +550,9 @@ const experience = {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#ee3c26"
-        }
-      ]
+          color: "#ee3c26",
+        },
+      ],
     },
     {
       title: "Volunteer experience",
@@ -603,7 +566,7 @@ const experience = {
           location: "Bangalore, Karnataka",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#4285F4"
+          color: "#4285F4",
         },
         {
           title: "All India Campus Ambassador",
@@ -614,7 +577,7 @@ const experience = {
           location: "Kolkata, West Bengal",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#D83B01"
+          color: "#D83B01",
         },
         {
           title: "Arctic Code Vault Contributor",
@@ -625,7 +588,7 @@ const experience = {
           location: "Work From Home",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#181717"
+          color: "#181717",
         },
         {
           title: "Developer Program Member",
@@ -636,19 +599,18 @@ const experience = {
           location: "Work From Home",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          color: "#181717"
-        }
-      ]
-    }
-  ]
+          color: "#181717",
+        },
+      ],
+    },
+  ],
 };
 
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  avatar_image_path: "projects_image.svg"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  avatar_image_path: "projects_image.svg",
 };
 
 // Contact Page
@@ -657,27 +619,24 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "tamojit_das.png",
     avatar_image_path: "socialmedia.svg",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     link: "#",
-    avatar_image_path: "choice.svg"
+    avatar_image_path: "choice.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     avatar_image_path: "address.svg",
-    location_map_link: "#"
+    location_map_link: "#",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 xxxxxxxxxx"
-  }
+    subtitle: "+91 xxxxxxxxxx",
+  },
 };
 
 export {
@@ -690,5 +649,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  contactPageData
+  contactPageData,
 };
