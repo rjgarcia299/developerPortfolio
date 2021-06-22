@@ -18,16 +18,14 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 <Typewriter
                   onInit={(typewriter) => {
-                    typewriter
-                      .typeString("Hi, my name is Rafael and I like to code.")
-                      .start();
+                    typewriter.typeString("Hi, my name is Rafael.").start();
                   }}
                 />
               </h1>
-              <h1 className="greeting-nickname" style={{ color: theme.text }}>
+              {/* <h1 className="greeting-nickname" style={{ color: theme.text }}>
                 {greeting.nickname}
                 <span className="wave-emoji">{emoji("👋🏻")}</span>
-              </h1>
+              </h1> */}
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}

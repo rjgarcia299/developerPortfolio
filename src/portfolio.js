@@ -53,47 +53,6 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Web Development",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ bullet points about headlines in tech",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Node.Js",
-          fontAwesomeClassname: "f419",
-          style: {
-            backgroundColor: "black",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
@@ -114,13 +73,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -153,71 +105,11 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "logos-aws",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
+            color: "#3776AB",
           },
         },
         {
@@ -225,59 +117,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "⚡ Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "grommet-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -289,47 +128,10 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "Microsoft",
-      logo_path: "MTA.png",
-      alt_name: "Microsoft Technology Associate",
+      siteName: "Coding Dojo",
+      logo_path: "coding_dojo.png",
       style: {
         color: "#2EC866",
-      },
-      profileLink: "#",
-    },
-    {
-      siteName: "IBM",
-      logo_path: "DataScience.png",
-      alt_name: "Data Science",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "#",
-    },
-    {
-      siteName: "IBM",
-      logo_path: "MachineLearning.png",
-      alt_name: "Machine Learning",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "#",
-    },
-    {
-      siteName: "IBM",
-      logo_path: "Python.png",
-      alt_name: "Python 101",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "#",
-    },
-    {
-      siteName: "GoogleCloud",
-      logo_path: "gcpskill.png",
-      alt_name: "Google Cloud",
-      style: {
-        color: "#20BEFF",
       },
       profileLink: "#",
     },
